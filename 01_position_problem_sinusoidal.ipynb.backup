@@ -5,9 +5,11 @@
    "id": "6dd19cf8",
    "metadata": {},
    "source": [
-    "# Part 1: The Position Problem — Why Transformers Need Help Knowing \"Where\"\n",
+    "# Part 1: The Position Problem - Why Transformers Need Help Knowing \"Where\"\n",
     "\n",
     "**Understanding Positional Encodings in Transformers** | *A Six-Part Series*\n",
+    "\n",
+    "<img src=\"https://www.storminthecastle.com/img/sinusoidal.png\" width=\"256px\">\n",
     "\n",
     "---\n",
     "\n",
@@ -59,7 +61,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": null,
    "id": "fd9aa6ef",
    "metadata": {},
    "outputs": [
@@ -122,7 +124,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": null,
    "id": "5eb597e7",
    "metadata": {},
    "outputs": [
@@ -249,7 +251,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": null,
    "id": "0a57703f",
    "metadata": {},
    "outputs": [
@@ -326,7 +328,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": null,
    "id": "65038d46",
    "metadata": {},
    "outputs": [
@@ -379,7 +381,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": null,
    "id": "7c598e41",
    "metadata": {},
    "outputs": [
@@ -457,7 +459,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": null,
    "id": "4d099c7a",
    "metadata": {},
    "outputs": [
@@ -539,7 +541,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": null,
    "id": "22911925",
    "metadata": {},
    "outputs": [
@@ -1563,7 +1565,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": null,
    "id": "de8a93cc",
    "metadata": {},
    "outputs": [
@@ -1645,7 +1647,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": null,
    "id": "f880aad8",
    "metadata": {},
    "outputs": [
@@ -1748,7 +1750,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": null,
    "id": "dcc18d35",
    "metadata": {},
    "outputs": [
@@ -1830,7 +1832,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": null,
    "id": "38c0880b",
    "metadata": {},
    "outputs": [
@@ -1899,7 +1901,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": null,
    "id": "6cbced7f",
    "metadata": {},
    "outputs": [
@@ -2019,7 +2021,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+   "execution_count": null,
    "id": "2db2900f",
    "metadata": {},
    "outputs": [
@@ -2115,7 +2117,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": null,
    "id": "7a1fa256",
    "metadata": {},
    "outputs": [
@@ -2314,6 +2316,16 @@
   }
  ],
  "metadata": {
+  "blog": {
+   "date": "2026-01-02",
+   "description": "Understanding Positional Encodings in Transformers",
+   "tags": [
+    "positional encoding",
+    "sinusoidal",
+    "transformers"
+   ],
+   "title": "Part 1: The Position Problem — Why Transformers Need Help Knowing \"Where\""
+  },
   "kernelspec": {
    "display_name": "poe",
    "language": "python",
@@ -2330,16 +2342,6 @@
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
    "version": "3.13.11"
-  },
-  "blog": {
-   "title": "Understanding Positional Encodings in TransformersA Six-Part Series*",
-   "description": "A Six-Part Series",
-   "date": "2026-01-02",
-   "tags": [
-    "positional encoding",
-    "sinusoidal",
-    "transformers"
-   ]
   }
  },
  "nbformat": 4,
